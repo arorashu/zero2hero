@@ -1,0 +1,53 @@
+
+# Token
+fundamental unit
+Unit of transaction for the transformer
+
+tokenization is the process of translating text into sequences of tokens
+
+the size of the tokenization affect the length of the sequence that the
+attention heads of the transformer need to attend 
+
+gpt-4 tokenizer is more dense than gpt-2
+  better than handling python code
+
+
+If we have a very small vocab, like utf-8
+our text will be stretched out over v.v.long sequences of bytes
+we have finite context length in our transformers - computational reasons
+
+**Question**
+1. What is the embedding table?
+
+
+
+## Byte Pair encoding
+Compress our vocabulary that we feed to the transformer model
+A variable size encoding
+
+
+identify pair of tokens that occur most frequently, replace those with the new token that we append to our vocab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Andrew Ng
+inference costs are going down a lot!
+So much so that agentic workflows, where you wnat to do multiple rounds
+of llm inferece calls become feasible for your application
+
+
+
+
+
+
